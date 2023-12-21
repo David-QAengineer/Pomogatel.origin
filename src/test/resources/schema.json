@@ -1,0 +1,956 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "group",
+        "setting",
+        "value"
+      ]
+    }
+  ]
+}

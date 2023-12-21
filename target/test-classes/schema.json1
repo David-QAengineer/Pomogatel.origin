@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "pictureSmallUrl": {
+      "type": "string"
+    },
+    "pictureMediumUrl": {
+      "type": "string"
+    },
+    "pictureBigUrl": {
+      "type": "string"
+    },
+    "verificationShortVideoUrl": {
+      "type": "string"
+    },
+    "verificationFullVideoUrl": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "accessTokenExpiresMinutes": {
+      "type": "integer"
+    },
+    "photoDomain": {
+      "type": "string"
+    },
+    "video": {
+      "type": "object",
+      "properties": {
+        "accountHash": {
+          "type": "string"
+        },
+        "eid": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "accountHash",
+        "eid"
+      ]
+    }
+  },
+  "required": [
+    "pictureSmallUrl",
+    "pictureMediumUrl",
+    "pictureBigUrl",
+    "verificationShortVideoUrl",
+    "verificationFullVideoUrl",
+    "features",
+    "accessTokenExpiresMinutes",
+    "photoDomain",
+    "video"
+  ]
+}
