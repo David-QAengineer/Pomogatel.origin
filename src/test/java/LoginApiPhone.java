@@ -35,7 +35,6 @@ public class LoginApiPhone {
         SpecificationApi.InstallSpecification(SpecificationApi.requestSpecification(BASE_URL),
                 SpecificationApi.responseSpecification200());
         Response response = given().
-                body(access_token).
                 when().
                 get("settings/values");
         response.then().assertThat().body(JsonSchemaValidator.
@@ -48,7 +47,6 @@ public class LoginApiPhone {
         SpecificationApi.InstallSpecification(SpecificationApi.requestSpecification(BASE_URL),
                 SpecificationApi.responseSpecification200());
         Response response=given().
-                body(access_token).
                 when().
                 get("settings");
         response.then().assertThat().body(JsonSchemaValidator.
@@ -67,12 +65,12 @@ public class LoginApiPhone {
     response.then().assertThat().body(JsonSchemaValidator.
             matchesJsonSchemaInClasspath("schema.json3"));
 }
-//    @Test(priority = 3)
-//    public void Interest(){
-//        SpecificationApi.InstallSpecification(SpecificationApi.requestSpecification(BASE_URL),
-//                SpecificationApi.responseSpecification200());
-//        Response response=given().when().body(access_token).get("accounts/user/interest");
-//        System.out.println("repo  " + response.body().asPrettyString());
-//    }
+    @Test(priority = 4)
+    public void Interest(){
+        SpecificationApi.InstallSpecification(SpecificationApi.requestSpecification(BASE_URL),
+                SpecificationApi.responseSpecification200());
+        Response response=given().when().header("Authorization", "Bearer " + access_token).get("accounts/user/interest");
+        System.out.println("repo  " + response.body().asPrettyString());
+    }
 }
 
