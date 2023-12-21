@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "isEnabled": {
+      "type": "boolean"
+    },
+    "hasSubscription": {
+      "type": "boolean"
+    },
+    "hasUserPlan": {
+      "type": "boolean"
+    },
+    "hasUserPackets": {
+      "type": "boolean"
+    },
+    "isTrialAvailable": {
+      "type": "boolean"
+    },
+    "isTinkoffEnabled": {
+      "type": "boolean"
+    },
+    "isIyzipayEnabled": {
+      "type": "boolean"
+    },
+    "isPayselectionEnabled": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "isEnabled",
+    "hasSubscription",
+    "hasUserPlan",
+    "hasUserPackets",
+    "isTrialAvailable",
+    "isTinkoffEnabled",
+    "isIyzipayEnabled",
+    "isPayselectionEnabled"
+  ]
+}
