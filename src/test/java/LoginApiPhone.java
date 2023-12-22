@@ -3,6 +3,8 @@ import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
@@ -15,10 +17,13 @@ public class LoginApiPhone {
 
 
     @Test(priority = 0)
-    public void LoginWithPhone() {
+    public void LoginWithPhone() throws IOException {
+        System.getProperties().load(ClassLoader.getSystemResourceAsStream("login.properties"));
+        String password_user=System.getProperty("password");
+        String phone_user=System.getProperty("phone");
         JSONObject params_login = new JSONObject();
-        params_login.put("password", "622521");
-        params_login.put("phone", "9021928531");
+        params_login.put("password", password_user);
+        params_login.put("phone", phone_user);
         SpecificationApi.InstallSpecification(SpecificationApi.requestSpecification(BASE_URL),
                 SpecificationApi.responseSpecification200());
         Response response = given().when().body(params_login.toString()).
@@ -50,7 +55,7 @@ public class LoginApiPhone {
                 when().
                 get("settings");
         response.then().assertThat().body(JsonSchemaValidator.
-                matchesJsonSchemaInClasspath("schema.json1"));
+                matchesJsonSchemaInClasspath("schema1.json"));
         System.out.println(response.body().asPrettyString());
 
     }
@@ -63,14 +68,15 @@ public class LoginApiPhone {
                 get("https://api19.pomogatel.ru/billing/state").then().extract().response();
     System.out.println("fredi " + response.body().asPrettyString());
     response.then().assertThat().body(JsonSchemaValidator.
-            matchesJsonSchemaInClasspath("schema.json3"));
+            matchesJsonSchemaInClasspath("schema2.json"));
 }
     @Test(priority = 4)
     public void Interest(){
         SpecificationApi.InstallSpecification(SpecificationApi.requestSpecification(BASE_URL),
                 SpecificationApi.responseSpecification200());
         Response response=given().when().header("Authorization", "Bearer " + access_token).get("accounts/user/interest");
-        System.out.println("repo  " + response.body().asPrettyString());
+        System.out.println("response  " + response.body().asPrettyString());
+        response.then().assertThat().body(matchesJsonSchemaInClasspath("schema3.json"));
     }
 }
 
