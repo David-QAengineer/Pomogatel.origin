@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "negotiateVersion": {
+      "type": "integer"
+    },
+    "connectionId": {
+      "type": "string"
+    },
+    "availableTransports": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "transport": {
+              "type": "string"
+            },
+            "transferFormats": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "transport",
+            "transferFormats"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "transport": {
+              "type": "string"
+            },
+            "transferFormats": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "transport",
+            "transferFormats"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "transport": {
+              "type": "string"
+            },
+            "transferFormats": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "transport",
+            "transferFormats"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "negotiateVersion",
+    "connectionId",
+    "availableTransports"
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "customerAccountState": {
+      "type": "object",
+      "properties": {
+        "userAccount": {
+          "type": "object",
+          "properties": {
+            "userId": {
+              "type": "string"
+            },
+            "roleId": {
+              "type": "integer"
+            },
+            "countryId": {
+              "type": "integer"
+            },
+            "regionId": {
+              "type": "integer"
+            },
+            "creationDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "userId",
+            "roleId",
+            "countryId",
+            "regionId",
+            "creationDate"
+          ]
+        },
+        "userInterest": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "specializationId": {
+              "type": "integer"
+            },
+            "requirementDate": {
+              "type": "null"
+            },
+            "address": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "region": {
+              "type": "null"
+            },
+            "area": {
+              "type": "string"
+            },
+            "locality": {
+              "type": "string"
+            },
+            "street": {
+              "type": "string"
+            },
+            "house": {
+              "type": "null"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "isActive": {
+              "type": "boolean"
+            },
+            "creationDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "specializationId",
+            "requirementDate",
+            "address",
+            "country",
+            "region",
+            "area",
+            "locality",
+            "street",
+            "house",
+            "latitude",
+            "longitude",
+            "isActive",
+            "creationDate"
+          ]
+        },
+        "customerType": {
+          "type": "object",
+          "properties": {
+            "customerTypeId": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "customerTypeId"
+          ]
+        },
+        "customerPerson": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "middleName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "genderId": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "firstName",
+            "middleName",
+            "lastName",
+            "genderId"
+          ]
+        },
+        "customerAddress": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "region": {
+              "type": "null"
+            },
+            "area": {
+              "type": "string"
+            },
+            "locality": {
+              "type": "string"
+            },
+            "street": {
+              "type": "string"
+            },
+            "house": {
+              "type": "null"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "coordinatesType": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "address",
+            "country",
+            "region",
+            "area",
+            "locality",
+            "street",
+            "house",
+            "latitude",
+            "longitude",
+            "coordinatesType"
+          ]
+        },
+        "customerPhoto": {
+          "type": "null"
+        },
+        "agencyCompany": {
+          "type": "null"
+        },
+        "agencyLogo": {
+          "type": "null"
+        },
+        "childCenterCompany": {
+          "type": "null"
+        },
+        "childCenterLogo": {
+          "type": "null"
+        },
+        "customerContactsSharing": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "isShared": {
+              "type": "boolean"
+            },
+            "expirationDate": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "id",
+            "isShared",
+            "expirationDate"
+          ]
+        },
+        "housekeeperVacancies": {
+          "type": "array",
+          "items": {}
+        },
+        "nannyVacancies": {
+          "type": "array",
+          "items": {}
+        },
+        "nurseVacancies": {
+          "type": "array",
+          "items": {}
+        },
+        "tutorVacancies": {
+          "type": "array",
+          "items": {}
+        },
+        "driverVacancies": {
+          "type": "array",
+          "items": {}
+        },
+        "psychVacancies": {
+          "type": "array",
+          "items": {}
+        },
+        "masseurVacancies": {
+          "type": "array",
+          "items": {}
+        },
+        "pairVacancies": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "userAccount",
+        "userInterest",
+        "customerType",
+        "customerPerson",
+        "customerAddress",
+        "customerPhoto",
+        "agencyCompany",
+        "agencyLogo",
+        "childCenterCompany",
+        "childCenterLogo",
+        "customerContactsSharing",
+        "housekeeperVacancies",
+        "nannyVacancies",
+        "nurseVacancies",
+        "tutorVacancies",
+        "driverVacancies",
+        "psychVacancies",
+        "masseurVacancies",
+        "pairVacancies"
+      ]
+    },
+    "customerSharedState": {
+      "type": "object"
+    },
+    "customerSearchState": {
+      "type": "object",
+      "properties": {
+        "indexedVacancies": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "indexedVacancies"
+      ]
+    },
+    "customerVacanciesState": {
+      "type": "object",
+      "properties": {
+        "vacancies": {
+          "type": "array",
+          "items": {}
+        },
+        "skip": {
+          "type": "integer"
+        },
+        "take": {
+          "type": "integer"
+        },
+        "total": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "vacancies",
+        "skip",
+        "take",
+        "total"
+      ]
+    },
+    "customerSubscriptionsState": {
+      "type": "object",
+      "properties": {
+        "resumeSubscriptions": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "resumeSubscriptions"
+      ]
+    },
+    "auditState": {
+      "type": "object",
+      "properties": {
+        "alarms": {
+          "type": "array",
+          "items": {}
+        },
+        "tasks": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "entityId": {
+                  "type": "string"
+                },
+                "typeName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityId",
+                "typeName"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "alarms",
+        "tasks"
+      ]
+    },
+    "userState": {
+      "type": "object",
+      "properties": {
+        "userContacts": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "emailConfirmed": {
+              "type": "boolean"
+            },
+            "phoneNumber": {
+              "type": "string"
+            },
+            "phoneNumberConfirmed": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "email",
+            "emailConfirmed",
+            "phoneNumber",
+            "phoneNumberConfirmed"
+          ]
+        },
+        "userStatus": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "isLocked": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "id",
+            "isLocked"
+          ]
+        },
+        "isDeleted": {
+          "type": "boolean"
+        },
+        "inBlacklist": {
+          "type": "boolean"
+        },
+        "isTestUser": {
+          "type": "boolean"
+        },
+        "isBindingEsia": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "userContacts",
+        "userStatus",
+        "isDeleted",
+        "inBlacklist",
+        "isTestUser",
+        "isBindingEsia"
+      ]
+    },
+    "chatsState": {
+      "type": "object",
+      "properties": {
+        "chatsInfo": {
+          "type": "object",
+          "properties": {
+            "unreadChatsCount": {
+              "type": "integer"
+            },
+            "unreadMessagesCount": {
+              "type": "integer"
+            },
+            "totalCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "unreadChatsCount",
+            "unreadMessagesCount",
+            "totalCount"
+          ]
+        }
+      },
+      "required": [
+        "chatsInfo"
+      ]
+    },
+    "storageState": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                },
+                "lastModified": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "lastModified"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                },
+                "lastModified": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "lastModified"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "items"
+      ]
+    },
+    "feedbackState": {
+      "type": "object",
+      "properties": {
+        "ticketId": {
+          "type": "string"
+        },
+        "userUnreadCount": {
+          "type": "integer"
+        },
+        "supportUnreadCount": {
+          "type": "integer"
+        },
+        "lastReplyDate": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "ticketId",
+        "userUnreadCount",
+        "supportUnreadCount",
+        "lastReplyDate"
+      ]
+    },
+    "billingState": {
+      "type": "object",
+      "properties": {
+        "isEnabled": {
+          "type": "boolean"
+        },
+        "hasSubscription": {
+          "type": "boolean"
+        },
+        "hasUserPlan": {
+          "type": "boolean"
+        },
+        "hasUserPackets": {
+          "type": "boolean"
+        },
+        "isTrialAvailable": {
+          "type": "boolean"
+        },
+        "isTinkoffEnabled": {
+          "type": "boolean"
+        },
+        "isIyzipayEnabled": {
+          "type": "boolean"
+        },
+        "isPayselectionEnabled": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "isEnabled",
+        "hasSubscription",
+        "hasUserPlan",
+        "hasUserPackets",
+        "isTrialAvailable",
+        "isTinkoffEnabled",
+        "isIyzipayEnabled",
+        "isPayselectionEnabled"
+      ]
+    },
+    "experimentsState": {
+      "type": "object",
+      "properties": {
+        "experimentParticipants": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "experiment": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string"
+                    },
+                    "isActive": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "code",
+                    "isActive"
+                  ]
+                },
+                "group": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "experiment",
+                "group"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "experiment": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string"
+                    },
+                    "isActive": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "code",
+                    "isActive"
+                  ]
+                },
+                "group": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "experiment",
+                "group"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "experimentParticipants"
+      ]
+    },
+    "segmentationState": {
+      "type": "object",
+      "properties": {
+        "segment": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "segment"
+      ]
+    }
+  },
+  "required": [
+    "customerAccountState",
+    "customerSharedState",
+    "customerSearchState",
+    "customerVacanciesState",
+    "customerSubscriptionsState",
+    "auditState",
+    "userState",
+    "chatsState",
+    "storageState",
+    "feedbackState",
+    "billingState",
+    "experimentsState",
+    "segmentationState"
+  ]
+}
